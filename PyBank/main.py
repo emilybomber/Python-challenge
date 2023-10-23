@@ -65,7 +65,3 @@ with open("financial_analysis.txt", "w") as textfile:
     textfile.write(f"Average Change: ${average_change:.2f}\n")
     textfile.write(f"Greatest Increase in Profits: {date_max_increase} (${max_increase})\n")
     textfile.write(f"Greatest Decrease in Profits: {date_max_decrease} (${max_decrease})\n")
-
-#The changes in "Profit/Losses" over the entire period, and then the average of those changes
-#The greatest increase in profits (date and amount) over the entire period
-#The greatest decrease in profits (date and amount) over the entire 
